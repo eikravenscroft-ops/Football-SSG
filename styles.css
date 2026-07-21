@@ -144,6 +144,25 @@ img { max-width: 100%; display: block; }
   .main-nav a { display: block; padding: 14px 0; }
 }
 
+.ball-track {
+  position: relative;
+  height: 22px;
+  overflow: hidden;
+}
+
+.rolling-ball {
+  position: absolute;
+  bottom: 1px;
+  left: -5%;
+  font-size: 18px;
+  animation: roll-across 9s linear infinite;
+}
+
+@keyframes roll-across {
+  0% { left: -5%; transform: rotate(0deg); }
+  100% { left: 105%; transform: rotate(1080deg); }
+}
+
 /* ============================================
    Hero
    ============================================ */
