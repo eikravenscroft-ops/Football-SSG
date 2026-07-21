@@ -148,10 +148,10 @@ img { max-width: 100%; display: block; }
 /* ============================================
    Hero
    ============================================ */
-.hero {
-  position: relative;
-  overflow: hidden;
-  padding: 96px 0 120px;
+@media (max-width: 600px) {
+  .hero {
+    padding: 48px 0 56px;
+  }
 }
 
 .hero::before {
