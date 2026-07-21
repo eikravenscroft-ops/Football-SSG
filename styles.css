@@ -486,6 +486,7 @@ section { padding: 88px 0; }
 
 .text-box {
   max-width: 480px;
+  padding-left: 24px;
 }
 
 .text-box h3 {
@@ -529,4 +530,8 @@ section { padding: 88px 0; }
   font-size: 13px;
   color: var(--orange);
   font-weight: 600;
+}
+
+.text-box h3 .highlight {
+  color: var(--orange);
 }
