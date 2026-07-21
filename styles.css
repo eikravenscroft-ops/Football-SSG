@@ -150,7 +150,7 @@ img { max-width: 100%; display: block; }
    ============================================ */
 @media (max-width: 600px) {
   .hero {
-    padding: 48px 0 56px;
+    padding: 0px 0 0px;
   }
 }
 
