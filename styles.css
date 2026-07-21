@@ -153,7 +153,7 @@ img { max-width: 100%; display: block; }
 .rolling-ball {
   position: absolute;
   bottom: 1px;
-  left: -5%;
+  left: 10%;
   font-size: 18px;
   animation: roll-across 9s linear infinite;
 }
