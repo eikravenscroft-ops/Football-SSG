@@ -547,3 +547,20 @@ section { padding: 88px 0; }
 .text-box h3 .highlight {
   color: var(--orange);
 }
+
+.text-box {
+  max-width: 480px;
+  padding-left: 24px;
+}
+
+@media (min-width: 900px) {
+  .text-box {
+    margin: 0 auto;
+    padding-left: 0;
+    text-align: center;
+  }
+  .text-box ul {
+    text-align: left;
+    display: inline-block;
+  }
+}
